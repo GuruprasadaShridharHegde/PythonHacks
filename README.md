@@ -30,3 +30,4 @@ Uninstall Packages:
 while read requirement; do pip uninstall -y $requirement; done < requirements.txt
 
 ```
+
